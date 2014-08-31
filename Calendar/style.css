@@ -1,0 +1,44 @@
+body {
+	font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.classy {
+	border: 2px solid lightblue;
+	font: sans-serif;
+	background-color: lightgray;
+}
+
+.day_names {
+	color: white;
+}
+
+.title {
+	color: #ff757a;
+	margin: 20px auto;
+}
+
+td {
+	padding:15px;
+	position: relative;
+	width: 100px;
+	height: 60px;
+}
+
+form {
+	margin: 15px 0px 15px 0px;
+	display: block;
+	width: 200px;
+	padding: 15px;
+	border: 2px solid lightblue;
+}
+
+.date {
+	position:absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.event {
+	background-color: #ff757a;
+	display: block;
+}

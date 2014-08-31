@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="jquery.js"></script>
+<script src="scripts.js"></script>
+</head>
+<body>
+	<h1 class="title">Wacky Painter</h1>
+	<div class="easel">
+	</div>
+	<form class="color_input">
+		<label for="color_input">Enter a new CSS color to add:</label>
+		<input id="color_input" name="color_input" type="text" placeholder="lightblue">
+		<button type="button" id="submitter" class="btn btn-default" onclick="newColor()">Go</input>
+	</form>
+
+	<script>
+	$(function () {
+		setUpEasel();
+		visitBox();
+		newColor();
+	});
+	</script>
+</body>
+</html>

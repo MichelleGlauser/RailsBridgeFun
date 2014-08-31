@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  color: #ff757a;
+}
+
+.easel {
+  width: 500px;
+  outline: #c8c8c8 5px solid;
+  margin: 0 auto;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  outline: thin solid #c8c8c8;
+  display: inline-block;
+  margin-top:-2px;
+}
+
+form {
+  margin: 10px auto;
+}
+
+.title {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
